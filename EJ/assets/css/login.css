@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header#login-page {
+    background: url("https://d1a3f4spazzrp4.cloudfront.net/chameleon/cms/uploads/2016/10/24/1477347860-pattern.png")
+        repeat scroll center center;
+    height: 42px;
+    background-size: 60px 60px;
+    margin-top: 0;
+}
+
+.logo {
+    background: black;
+    top: 24px;
+    left: 50%;
+    position: absolute;
+    padding: 40px 15px;
+    margin-left: -47px;
+}
+
+.main {
+    box-sizing: border-box;
+    min-width: 450px;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+
+}
+
+.top-phrase {
+    padding: 120px;
+    padding-bottom: 10px;
+
+}
+
+.top-phrase h1{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    margin: 20px;
+}
+
+.top-phrase h2{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 350;
+    margin: 0;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.subtitle label {
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    cursor: default;
+}
+
+
+.input-name input{
+    border: 1px solid #e5e5e4;
+    border-radius: 0px;
+    padding: 8px 18px;
+    background: white;
+    height: 52px;
+    box-sizing: border-box;
+    color: black;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+
+    outline: none;
+}
+
+.second-caption label {
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    cursor: default;
+}
+
+.input-surname input {
+    border: 1px solid #e5e5e4;
+    border-radius: 0px;
+    padding: 8px 18px;
+    background: white;
+    height: 52px;
+    box-sizing: border-box;
+    color: black;
+    font-size: 16px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    outline: none;
+
+}
+
+.third-caption label {
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    cursor: default;
+}
+
+.input-number input {
+    border: 1px solid #e5e5e4;
+    border-radius: 0px;
+    padding: 8px 18px;
+    background: white;
+    height: 52px;
+    box-sizing: border-box;
+    color: black;
+    font-size: 16px;
+}
