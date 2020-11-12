@@ -72,6 +72,4 @@ app.get("*", function (req, res) {
     renderTemplate(res, req, "404.ejs");
 });
 
-app.listen(8080, null, null, () =>
-    console.log(`Site aberto na porta 8080.`)
-);
+app.listen(8080, null, null, () => console.log(`Site aberto na porta 8080.`));
